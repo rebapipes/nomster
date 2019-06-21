@@ -47,7 +47,7 @@ body {
 }
 
 .pagination {
-  background: black;
+  background: white;
   cursor: default;
   height: 22px;
   a, span, em {
@@ -64,7 +64,7 @@ body {
     font-style: normal;
     font-weight: bold;
     background: #2e6ab1;
-    color: white;
+    color: black;
     border: 1px solid #2e6ab1;
   }
   a {
@@ -78,7 +78,7 @@ body {
   }
   .page_info {
     background: #2e6ab1;
-    color: white;
+    color: black;
     padding: 0.4em 0.6em;
     width: 22em;
     margin-bottom: 0.3em;

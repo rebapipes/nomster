@@ -90,3 +90,10 @@ body {
     }
   }
 }
+
+.pagination {
+  .disabled {
+    display: none;
+  }
+  /* Rest of stylesheet omitted. */
+}

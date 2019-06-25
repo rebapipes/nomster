@@ -18,14 +18,20 @@
     <a class="navbar-brand" href="#">Nomster</a>
     <%= link_to 'Nomster', root_path, class: 'navbar-brand' %>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+      <ul class="navbar-nav">
+      <% if user_signed_in? %>
         <li class="nav-item">
-          <%= link_to new_place_path, class: 'nav-link' do %>
-            <i class="fa fa-plus-circle"></i>
-            New Place
-          <% end %>
+           <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'nav-link' %>
         </li>
-      </ul>
+      <% else %>
+        <li class="nav-item">
+           <%= link_to 'Sign in', new_user_session_path, class: 'nav-link' %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Sign up', new_user_registration_path, class: 'nav-link' %>
+        </li>
+      <% end %>
+    </ul>
     </div>
   </nav>
 <% if notice.present? %>

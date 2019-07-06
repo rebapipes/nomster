@@ -26,9 +26,10 @@ body {
 }
 
 
-.navbar {
+.navbar-inverse .navbar-brand {
   background: image_url('nami2.png');
   box-shadow: 0px 1px 3px #2a2a2a;
+  margin-bottom: 0px;
 }
 
 
@@ -124,4 +125,24 @@ blockquote:before {
 
 blockquote p {
   display: inline;
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  max-height: 550px;
+  width: 100%;
+}
+
+.carousel-caption {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.carousel {
+  box-shadow: 0px 3px 8px #2a2a2a;
 }

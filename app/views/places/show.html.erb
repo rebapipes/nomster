@@ -52,14 +52,14 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="mycommentModal" tabindex="-1" role="dialog" aria-labelledby="mycommentModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
-        <h4 class="modal-title" id="myModalLabel">Add a comment</h4>
+        <h4 class="modal-title" id="mycommentModalLabel">Add a comment</h4>
       </div>
         <%= simple_form_for @comment, url: place_comments_path(@place) do |f| %>
         <div class="modal-body">
@@ -78,7 +78,7 @@
 <div class="col-10 offset-1">
 <h1 class="float-left">Comments</h1>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#mycommentModal">
   Add a comment
 </button>
 </div>
@@ -101,14 +101,14 @@
 <br/><br/>
 
   <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myphotoModal" tabindex="-1" role="dialog" aria-labelledby="myphotoModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
-        <h4 class="modal-title" id="myModalLabel">Add a photo</h4>
+        <h4 class="modal-title" id="myphotoModalLabel">Add a photo</h4>
       </div>
         <%= simple_form_for @photo, url: place_photos_path(@place) do |f| %>
         <div class="modal-body">
@@ -127,7 +127,7 @@
 <div class="col-10 offset-1">
 <h1 class="float-left">Photos</h1>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#myModal">
+<button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#myphotoModal">
   Add a photo
 </button>
 </div>

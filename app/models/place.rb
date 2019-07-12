@@ -1,9 +1,8 @@
 class Place < ApplicationRecord
-  belongs_to :place
-  has_many :photos
 
   belongs_to :user
-  has_many :comments
+    has_many :comments
+    has_many :photos
 
   geocoded_by :address
   after_validation :geocode

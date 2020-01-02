@@ -1,24 +1,52 @@
-# README
+# Nomster
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Nomster is a Yelp clone that integrates with the Google Maps API and includes features like user comments, star ratings, image uploading, and user authentication.
 
-Things you may want to cover:
+![](nomster_editdestroy.png)
+![](nomster_home.png)
+![](nomster_home2.png)
+![](nomster_home3.png)
+![](nomster_myplaces.png)
+![](nomster_newplace.png)
+![](nomster_placedetails.png)
+![](nomster_placedetails2.png)
+![](nomster_places.png)
+![](nomster_places2.png)
+![](nomster_signup.png)
+![](nomster_userloggedin.png)
+![](nomster_userprofile.png)
 
-* Ruby version
 
-* System dependencies
+## Getting Started
 
-* Configuration
+Built using Ruby on Rails
 
-* Database creation
+## Deployment
 
-* Database initialization
+Deployed using Heroku (https://www.heroku.com)
 
-* How to run the test suite
+## Testing
 
-* Services (job queues, cache servers, search engines, etc.)
+Please use Heroku link for testing and viewing purposes (see below)
 
-* Deployment instructions
+## Built With
 
-* ...
+* Ruby on Rails
+* Google API
+* AWS / S3
+
+## Meta
+
+Reba Pipes
+
+Email: pipes.reba@gmail.com
+
+LinkedIn: (https://linkedin.com/in/rebapipes)
+
+GitHub: (https://github.com/rebapipes/nomster)
+
+Heroku: (https://nomster-reba-pipes.herokuapp.com)
+
+Portfolio: (https://rebapipes.netlify.com)
+
+Medium Blog: (https://medium.com/@rebapipes) 

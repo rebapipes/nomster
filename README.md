@@ -1,6 +1,6 @@
 # Nomster
 
-Nomster is a Yelp clone that integrates with the Google Maps API and includes features like user comments, star ratings, image uploading, and user authentication.
+Nomster is a Yelp clone that integrates with the Google Maps API and includes features like user comments, star ratings, image uploading, and user authentication. Uses Git and GitHub for version control, and deployed via Heroku.
 
 Home/Landing Page
 
